@@ -7,19 +7,16 @@ $ npm install gruntfile-yaml
 grunt.yaml
 ``` yaml
 config:
-
     sass:
         build:
             files:
                 static/css/style/css: client/sass/main.sass
-
     jshint:
         build:
             src:
                 - client/js/**/*.js
             options:
                 jshintrc: true
-
     watch:
         options:
             livereload: true
