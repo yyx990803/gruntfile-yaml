@@ -1,5 +1,6 @@
-module.exports = function (grunt) {
+module.exports = function (grunt, process) {
     var y = grunt.file.readYAML('grunt.yaml')
+    if (process) process(y)
 
     grunt.initConfig(y.config)
 
