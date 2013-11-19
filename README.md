@@ -44,3 +44,12 @@ Gruntfile.js
 ``` js
 module.exports = require('gruntfile-yaml')
 ```
+
+or if you need to programatically manipulate the config:
+``` js
+module.exports = function (grunt) {
+    require('gruntfile-yaml')(grunt, function (data) {
+        data.config.jshint.build.options.reporter = require('jshint-stylish')
+    })
+}
+```
