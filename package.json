@@ -1,0 +1,19 @@
+{
+  "name": "gruntfile-yaml",
+  "version": "0.0.1",
+  "description": "write grunt config in yaml.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yyx990803/gruntfile-yaml.git"
+  },
+  "keywords": [
+    "grunt",
+    "yaml"
+  ],
+  "author": "Evan You",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyx990803/gruntfile-yaml/issues"
+  }
+}
